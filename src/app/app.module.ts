@@ -3,9 +3,6 @@ import { HttpModule, HttpService, Module, OnModuleInit } from '@nestjs/common';
 import { randomStringGenerator } from '@nestjs/common/utils/random-string-generator.util';
 
 import { LoggerService } from '../shared/utils/logger.service';
-import { EgarageModule } from '../egarage/egarage.module';
-import { SalesforceModule } from '../salesforce/salesforce.module';
-import { LiveAgentModule } from '../liveAgent/liveAgent.module';
 
 type AxiosRequestConfigWithStartTimeAndId = AxiosRequestConfig & {
   startTime: [number, number];
@@ -13,7 +10,7 @@ type AxiosRequestConfigWithStartTimeAndId = AxiosRequestConfig & {
 };
 
 @Module({
-  imports: [HttpModule, EgarageModule, SalesforceModule, LiveAgentModule],
+  imports: [HttpModule],
 })
 export class AppModule implements OnModuleInit {
   private readonly loggerHttp: LoggerService = new LoggerService('http');
