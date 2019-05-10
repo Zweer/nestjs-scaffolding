@@ -26,7 +26,7 @@ yarn add node-config-ts
 
 # Install the logging library: winston
 yarn add winston
-# Copythe src/shared/utils/logger.service.ts
+# Copy the src/shared/utils/logger.service.ts
 ```
 
 ## Modules / libraries / repos
