@@ -23,6 +23,10 @@ yarn add node-config-ts
 # Add the "config/Config.d.ts" file to the .girignore
 
 # Remove the app/app.* files
+
+# Install the logging library: winston
+yarn add winston
+# Copythe src/shared/utils/logger.service.ts
 ```
 
 ## Modules / libraries / repos
@@ -30,3 +34,4 @@ yarn add node-config-ts
 - [NestJS](https://github.com/nestjs/nest)
 - [AirBnb tslint](https://github.com/progre/tslint-config-airbnb)
 - [node-config-ts](https://github.com/tusharmath/node-config-ts)
+- [winston](https://github.com/winstonjs/winston)
