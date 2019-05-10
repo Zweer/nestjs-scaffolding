@@ -23,3 +23,9 @@ yarn add node-config-ts
 
 # Remove the app/app.* files
 ```
+
+## Modules / libraries / repos
+
+- [NestJS](https://github.com/nestjs/nest)
+- [AirBnb tslint](https://github.com/progre/tslint-config-airbnb)
+- [node-config-ts](https://github.com/tusharmath/node-config-ts)
