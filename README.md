@@ -35,3 +35,12 @@ yarn add winston
 - [AirBnb tslint](https://github.com/progre/tslint-config-airbnb)
 - [node-config-ts](https://github.com/tusharmath/node-config-ts)
 - [winston](https://github.com/winstonjs/winston)
+
+## Webstorm run configurations
+- Start
+  - Type: node.js
+  - Node parameters: `--require ts-node/register --require tsconfig-paths/register`
+  - Javascript file: `src/main.ts`
+- Postinstall
+  - Type npm
+  - Scripts: postinstall
