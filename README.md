@@ -20,6 +20,7 @@ yarn add --dev tslint-config-airbnb
 yarn add node-config-ts
 # Add the "postinstall" script: "node-config-ts"
 # Add the "config" directory with a default.json file inside
+# Add the "config/Config.d.ts" file to the .girignore
 
 # Remove the app/app.* files
 ```
